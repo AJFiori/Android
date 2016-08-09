@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.anthonyjfiori.lab3.Lab3">
+
+    <item
+        android:id="@+id/create_new"
+        android:orderInCategory="100"
+        android:title="New"
+        android:icon="@mipmap/ic_action_refresh"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/create_doubleOrder"
+        android:orderInCategory="100"
+        android:title="Double Order"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/create_newText"
+        android:orderInCategory="100"
+        android:title="New"
+        android:icon="@mipmap/ic_action_refresh"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/create_getFirstOrder"
+        android:orderInCategory="100"
+        android:title="Get First Order"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+</menu>
